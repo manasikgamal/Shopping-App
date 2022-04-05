@@ -1,0 +1,536 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/src/liberation-mono/LiberationMono-Regular.ttf);
+}
+* {
+  font-family: myFirstFont;
+}
+.hcontainer{
+  width: 89%;
+  align-content: center;
+  margin: auto;
+  display:flex;
+  justify-content: space-between;
+}
+.hcontainer ul{
+  display:flex;
+  list-style: none;
+}
+.hcontainer ul li button{
+padding: 20px;
+background-color: white;
+border: none;
+font-size: 20px;
+}
+.hcontainer ul li button:hover{
+  cursor: pointer;
+}
+.hselect input{
+border: none;
+width: 25px;
+font-size: 20px;
+font-weight: bold;
+transform: translate();
+}
+.hselect button{
+  border: none;
+  font-size: 20px;
+  background-color: white;
+}
+.hselect button:hover{
+  cursor: pointer;
+}
+.currncontainer{
+  width: 120px;
+  height: 180px;
+  position:absolute;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  z-index: 10;
+  right: 60px;
+  top:80px;
+  overflow-y:scroll;
+ }
+.hcurrnbtns button{
+  background-color: white;
+  border: none;
+  padding: 15px 15px;
+  font-size: 20px;
+  font-weight:bold;
+}
+.hcurrnbtns button:hover{
+  cursor: pointer;
+}
+.refresh img{
+  width: 40px;
+  height:35px ;
+  padding-top: 30px;
+  align-items: center;
+}
+.line{
+  display:flex;
+  padding-top: 30px;
+}
+.shop img{
+  width: 30px;
+  height:30px ;
+  padding-top: 0;
+  padding-left: 10px;
+  align-items: center;
+}
+.shop{
+  margin-left: auto;
+  cursor: pointer;
+}
+#lblCartCount {
+  font-size: 15px;
+  font-weight:bolder;
+  background: black;
+  color: #fff;
+  padding: 3px 7px 3px 0px;
+  vertical-align: top;
+  margin-left: -10px; 
+  border-radius: 50px;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  top: 103px;
+  left: 0;
+  bottom: 0;
+  position:static;
+  background-color: rgba(179, 179, 179, 0.8);
+  z-index: 10;
+}
+
+.child{
+  position:absolute; 
+  background-color: rgba(179, 179, 179, 0.8);
+  width:353px ;
+  height: 330px;
+  top: 10px; 
+  left: 13px;
+}
+.sdescshadow{
+  position:absolute; 
+  background-color: rgba(192, 191, 191, 0.8);
+  width:150px ;
+  height: 100%;
+}
+.ldescshadow{
+  position:absolute; 
+  background-color: rgba(192, 191, 191, 0.8);
+  width:650px ;
+  height: 100%;
+}
+.pro{
+  margin: 50px;
+}
+.pro h{
+font-size: 40px;
+}
+.products{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+ margin-top: 200px;
+}
+.product{
+display: flex;
+flex-direction: column;
+width: 380px;
+height: 430px;
+align-items: center;
+padding-top: 10px;
+margin: 10px;
+}
+.product :hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+}
+.cardstyle {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+}
+.product a{
+  text-decoration: none;
+  color: black;
+}
+.product img{
+  width: 353px;
+  height:330px ;
+}
+.desc{
+  width: 90%;
+  margin: 0 auto;
+  
+}
+.desc ul{
+  list-style: none;
+  display: flex;
+}
+.lmg{
+  width:120px;
+  float: left;
+  position: relative;
+}
+.lmg img{
+  width: 81px;
+  height: 82px;
+}
+.lmg img:hover{
+  cursor: pointer;
+}
+.differ img{
+  width: 611px;
+  height: 516px;
+ 
+}
+.differ{
+  position: relative;
+}
+.thank{
+  display: flex;
+}
+.real{
+  margin-left: 50px;
+}
+.descbtn{
+  border: none;
+  width: 294px;
+  height: 55px;
+  color: white;
+  font-size: 20px;
+  background-color:rgb(62, 231, 113) ;
+}
+.real button:hover{
+  cursor: pointer;
+}
+.text {
+  padding-top: 30px;
+  width: 300px;
+}
+.price h3{
+  padding-top: 30px;
+  font-size: 20px;
+}
+.price h2{
+  padding-bottom: 20px;
+}
+.base{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+.one{
+  font-size: 30px;
+}
+.stock{
+  font-size: 20px;
+  padding-top: 20px;
+}
+.size{
+  padding-top: 20px;
+}
+.carcontainert{
+  width: 83%;
+  margin-left:6%;
+}
+.carcontainert ul{
+list-style-type: none;
+}
+.cardc{
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  padding-left: 35px;
+}
+.carcontainert hr{
+  color:rgb(139, 136, 136);
+  border: 1px solid;
+}
+.cartdet{
+width: 80.6%;
+float: left;
+}
+.cardtitle{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.brand{
+  font-size: 30px;
+  padding-top: 2px;
+}
+.cartimg img{
+  width: 142px;
+  height: 190px;
+  }
+.cartimg{
+  width: 13.4%;
+  float: left;
+  position: relative;
+}
+ .cartincrease{
+  position: absolute;
+  top:90px;
+  left: 120px;
+  background-color:transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+ }
+ .carddecrease{
+  position: absolute;
+  top:90px;
+  background-color:transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+ }
+.cardprice{
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.maxmin{
+  float: left;
+  width: 6%;
+}
+.maxmin button{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+ border: 1px solid;
+ padding: 10px 15px;
+ font-size: 25px;
+}
+.min{
+  margin-top: 35px;
+}
+.max{
+  margin-top: 10px;
+  
+}
+.maxmin p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+.cardsize button{
+  width: 70px;
+  height: 50px;
+  background-color: white;
+ border: 1px solid;
+ margin: 5px;
+ 
+}
+.cardsize{
+  padding-top: 8px;
+}
+.cartimgshadow{
+  position:absolute; 
+  background-color: rgba(192, 191, 191, 0.8);
+  width: 500px;
+  height: 121%;
+}
+.cartbtnshadow{
+  position:absolute; 
+  background-color: rgba(192, 191, 191, 0.8);
+  left: 2px;
+  width: 100%;
+  height: 100%; 
+}
+.pluse{
+  justify-content: baseline;
+}
+.icon-pos{
+  position: relative; 
+  left: 0; 
+  top: 0;
+}
+.icon-img
+{
+position: absolute;
+bottom: 106px;
+right: 30px;
+width: 60px ;
+height:60px ;
+border-radius: 50%;
+}
+.bagcontainer{
+  width: 329px;
+  height: 534px;
+  position:absolute;
+  background-color: white;
+  z-index: 10;
+  right: 70px;
+  top:100px;
+ }
+ .bar{
+  overflow-y: scroll;
+ }
+ .bagcontainer h{
+   font-weight: bold;
+   font-size: 18px;
+   padding: 10px;
+ }
+ .bagcontainer ul{
+   list-style-type: none;
+   padding: 10px;
+   padding-top: 10px;
+   margin-bottom: -8px;
+ }
+ .bagdet{
+   float: left;
+ }
+ .bagbrand{
+  font-size: 18px;
+  padding-top: 5px;
+ }
+  .frRowbagtitle{
+   font-size: 18px;
+   display: table-row;
+  }
+  .bagimg img{
+    width: 107px;
+    height: 142px;
+    }
+  .bagimg{
+    width: 20%;
+    position: relative;
+    float: left;
+  }
+  .bagprice{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 9px;
+  }
+    
+  .bagmaxmin button{
+    background-color: white;
+   border: 1px solid;
+   padding: 3px 6px;
+   font-size: 16px;
+  }
+  .bagmin{
+    margin-top: 35px;
+  }
+  .bagmax{
+    margin-bottom: 35px;
+  }
+  .par{
+    font-size: 18px;
+    margin-top: 35px;
+
+  }
+  .bagsize button{
+    padding: 3px 6px;
+    font-size: 16px;
+    background-color: white;
+   border: 1px solid;
+   margin: 5px;
+  }
+  .bagsize{
+    padding-top: 8px;
+  }
+  .bagspace
+  {
+    padding-bottom: 180px;
+  }
+  .bagtotal p{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .bagtotal h{
+    font-weight: bold;
+    margin-left: 14px;
+  }
+ 
+  .bagbtn button{
+    padding: 10px 25px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .bagbtn button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+  }
+  .bagbtnview{
+    background-color: white;
+    border: 1px black solid;
+  }
+  .bagbtncheck{
+    background-color:rgb(62, 231, 113) ;
+    border: 1px rgb(62, 231, 113) solid ;
+    color: white;
+  }
+  .sizeshow{
+    display: flex;
+  }
+  .sizeshow button{
+    padding: 3px 6px;
+    font-size: 16px;
+    background-color: white;
+   border: 1px solid;
+   margin: 5px;
+  }
+  .atname{
+    padding-top: 8px;
+    font-weight: bold;
+  }
+  .active{
+    background-color: rgb(25, 26, 24);
+    border: 1.5px solid rgb(25, 26, 24);
+    }
+    
+
+    .formItem {
+      margin: 5px;
+      display: table;
+    }
+    
+    .frRow {
+      display: table-row;
+    }
+    .frCell {
+      display: table-cell;
+      padding: 5px;
+  }
+    .wrapper {
+      width: 300px;
+      overflow: hidden; /* will contain if #first is longer than #second */
+      border: 1px solid white;
+  }
+  .firstdiv {
+      width: 150px;
+      float:left; /* add this */
+      padding-top: 15px;
+      border: 1px solid white;
+  }
+  .seconddiv {
+      float: left;
+      overflow: hidden; /* if you don't want #second to wrap below #first */
+      padding-top: 15px;
+      margin-right: 10px;
+      border: 1px solid white; 
+  }
+  .thirddiv {
+    overflow: hidden; 
+    width: 107px;
+  height: 142px;
+  padding-top: 15px;
+  border: 1px solid white; 
+}
+
+.thirddiv img{
+  width: 107px;
+  height: 142px;
+}
