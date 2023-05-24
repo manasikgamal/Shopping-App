@@ -1,4 +1,4 @@
-export enum Category {
-    clothes = 'clothes',
-    tech = 'tech'
+export interface Category {
+    clothes : 'clothes',
+    tech : 'tech'
 };
