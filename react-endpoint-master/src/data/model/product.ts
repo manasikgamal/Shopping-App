@@ -19,9 +19,8 @@ class Product {
         protected name: string
     ) {}
 
-    protected addPrice(price: Price,category: Category) {
+    protected addPrice(price: Price) {
         this.prices.push(price);
-        this.category=category;
         return this;
     }
 
