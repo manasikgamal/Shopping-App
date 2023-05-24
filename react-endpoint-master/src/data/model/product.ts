@@ -7,7 +7,7 @@ const roundToTwoDecimals = (num: number) => Number((Math.round(num * 100) / 100)
 
 class Product {
     protected prices: Price[] = [];
-    protected category: Category={};
+    protected category: Category;
     protected description: string='';
     protected gallery: string[] = [];
     protected attributes: AttributeSet[] = [];
@@ -19,9 +19,9 @@ class Product {
         protected name: string
     ) {}
 
-    protected addPrice(price: Price) {
+    protected addPrice(price: Price,category: Category) {
         this.prices.push(price);
-
+        this.category=category;
         return this;
     }
 
