@@ -15,7 +15,7 @@ class Product {
     protected brand: string='';
     protected id: string='';
 
-    constructor(protected name: string,protected category: Category) {}
+    constructor(protected name: string) {}
 
     protected addPrice(price: Price) {
         this.prices.push(price);
