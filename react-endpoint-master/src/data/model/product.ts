@@ -8,12 +8,12 @@ const roundToTwoDecimals = (num: number) => Number((Math.round(num * 100) / 100)
 class Product {
     protected prices: Price[] = [];
     protected category: Category;
-    protected description: string;
+    protected description: string='';
     protected gallery: string[] = [];
     protected attributes: AttributeSet[] = [];
     protected inStock: boolean = true;
-    protected brand: string;
-    protected id: string;
+    protected brand: string='';
+    protected id: string='';
 
     constructor(
         protected name: string
